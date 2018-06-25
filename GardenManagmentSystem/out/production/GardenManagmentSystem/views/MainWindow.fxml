@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.MainWindowController">
+   <stylesheets>
+      <URL value="@gardens.css" />
+   </stylesheets>
+   <children>
+      <VBox layoutY="30.0" prefHeight="541.0" prefWidth="527.0" spacing="10.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="258.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <VBox prefHeight="205.0" prefWidth="527.0" spacing="10.0">
+               <children>
+                  <Label text="Преглед на предстоящи събития" textFill="#c55757" underline="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <GridPane prefHeight="146.0" prefWidth="800.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="401.0" minWidth="10.0" prefWidth="401.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="238.0" minWidth="10.0" prefWidth="140.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="Предстоящи поливания:">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#listUpcomingWater" prefHeight="43.0" prefWidth="132.0" text="Преглед" GridPane.columnIndex="1">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="410.0" layoutY="22.0" mnemonicParsing="false" onAction="#listUpcomingSpray" prefHeight="43.0" prefWidth="132.0" text="Преглед" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Label layoutX="10.0" layoutY="20.0" prefHeight="0.0" prefWidth="356.0" text="Предстоящи пръскания:" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </GridPane>
+               </children>
+            </VBox>
+            <VBox layoutX="10.0" layoutY="10.0" prefHeight="205.0" prefWidth="527.0" spacing="10.0">
+               <children>
+                  <Label text="Преглед градини и растения" textFill="#c55757" underline="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <GridPane prefHeight="146.0" prefWidth="800.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="401.0" minWidth="10.0" prefWidth="401.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="238.0" minWidth="10.0" prefWidth="140.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Label text="Списък градини:">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#listGardens" prefHeight="43.0" prefWidth="132.0" text="Преглед" GridPane.columnIndex="1">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="410.0" layoutY="22.0" mnemonicParsing="false" onAction="#listPlants" prefHeight="43.0" prefWidth="132.0" text="Преглед" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Label layoutX="10.0" layoutY="20.0" prefHeight="0.0" prefWidth="356.0" text="Списък растения:" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </GridPane>
+               </children>
+            </VBox>
+            <VBox prefHeight="250.0" prefWidth="527.0" spacing="10.0">
+               <children>
+                  <Label text="Конфигуриране на обработващи препарати" textFill="#c55757" underline="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <GridPane prefHeight="146.0" prefWidth="800.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="401.0" minWidth="10.0" prefWidth="401.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="240.0" minWidth="10.0" prefWidth="140.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="Списък вредители:">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                        <Label text="Списък методи за третиране:" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#listProblems" prefHeight="43.0" prefWidth="132.0" text="Преглед" GridPane.columnIndex="1">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#listTreatments" prefHeight="43.0" prefWidth="132.0" text="Преглед" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </GridPane>
+                  <Button mnemonicParsing="false" onAction="#configure" prefHeight="37.0" prefWidth="587.0" text="Конфигуриране">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+    </children>
+   <styleClass>
+      <String fx:value="mainFxmlClass" />
+      <String fx:value="mainWindow" />
+   </styleClass>
+</AnchorPane>

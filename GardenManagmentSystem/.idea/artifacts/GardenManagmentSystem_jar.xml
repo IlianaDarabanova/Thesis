@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="GardenManagmentSystem:jar">
+    <output-path />
+    <root id="archive" name="GardenManagmentSystem.jar">
+      <element id="module-output" name="GardenManagmentSystem" />
+      <element id="extracted-dir" path="D:/connectorj/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
