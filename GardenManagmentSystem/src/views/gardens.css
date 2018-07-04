@@ -81,3 +81,8 @@
     -fx-prompt-text-fill: transparent;
 }
 
+.date-picker.invalidDate  {
+    -fx-border-color: red;
+}
+
+
