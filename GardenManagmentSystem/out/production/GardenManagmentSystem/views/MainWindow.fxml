@@ -5,8 +5,6 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
@@ -43,12 +41,12 @@
                               <Font size="28.0" />
                            </font>
                         </Label>
-                        <Button mnemonicParsing="false" onAction="#listUpcomingWater" prefHeight="43.0" prefWidth="132.0" text="Преглед" GridPane.columnIndex="1">
+                        <Button fx:id="waterBtn" mnemonicParsing="false" onAction="#listUpcomingWater" prefHeight="43.0" prefWidth="132.0" styleClass="error" text="Преглед" GridPane.columnIndex="1">
                            <font>
                               <Font size="20.0" />
                            </font>
                         </Button>
-                        <Button layoutX="410.0" layoutY="22.0" mnemonicParsing="false" onAction="#listUpcomingSpray" prefHeight="43.0" prefWidth="132.0" text="Преглед" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                        <Button fx:id="sprayBtn" layoutX="410.0" layoutY="22.0" mnemonicParsing="false" onAction="#listUpcomingSpray" prefHeight="43.0" prefWidth="132.0" text="Преглед" GridPane.columnIndex="1" GridPane.rowIndex="1">
                            <font>
                               <Font size="20.0" />
                            </font>

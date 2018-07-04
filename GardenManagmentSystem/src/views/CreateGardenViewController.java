@@ -6,17 +6,20 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyEvent;
 import models.Garden;
-import models.Plant;
 
 import java.io.IOException;
 import java.net.URL;
 import java.sql.SQLException;
+import java.sql.SQLIntegrityConstraintViolationException;
+import java.time.LocalDate;
 import java.util.ResourceBundle;
 
 public class CreateGardenViewController implements Initializable, GardenControllerClass {
 
-    @FXML Label headerLabel;
+    @FXML private Label errorMsg;
+    @FXML private Label headerLabel;
     @FXML private DatePicker creatingDatePicker;
     @FXML private TextField descTextField;
     @FXML private TextField nameTextField;
@@ -25,7 +28,8 @@ public class CreateGardenViewController implements Initializable, GardenControll
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
+        errorMsg.setText("");
+        creatingDatePicker.setValue(LocalDate.now());
     }
 
     @Override
@@ -50,43 +54,88 @@ public class CreateGardenViewController implements Initializable, GardenControll
 
 
     public void saveGarden(ActionEvent event) {
-        try
-        {
             if (garden != null) //we need to edit/update an existing volunteer
             {
-                updateGarden();
-                try {
-                    garden.updateIntoDB();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
+                refGarden(event);
+
             }
             else    //we need to create a new plant
             {
 
-                garden = new Garden(nameTextField.getText(),descTextField.getText(),creatingDatePicker.getValue());
-
-                //do not show errors if creating Volunteer was successful
-                garden.insertIntoDB();
+            addGarden(event);
 
             }
-    }
-
-        catch (Exception e)
-    {
-        System.err.println(e.getMessage());
-    }
-
-        back(event);
-
-
-
 }
 
+    public void addGarden(ActionEvent event){
+
+        if(fieldsFilled()){
+            Garden currentGarden = new Garden(nameTextField.getText(), descTextField.getText(), creatingDatePicker.getValue());
+
+            //do not show errors if creating Volunteer was successful
+            try {
+                currentGarden.insertIntoDB();
+                garden=currentGarden;
+                back(event);
+
+            }
+            catch(SQLIntegrityConstraintViolationException unique){
+                errorMsg.setText("Градина с име \""+nameTextField.getText()+"\" вече съществува");
+            }
+            catch (SQLException e) {
+               errorMsg.setText(e.getMessage());
+            }
+        }
+    }
+
+    public void refGarden(ActionEvent event){
+        if(fieldsFilled()){
+            updateGarden();
+            try {
+                garden.updateIntoDB();
+                back(event);
+
+            } catch (SQLException e) {
+                errorMsg.setText(e.getMessage());
+            }
+        }
+
+    }
     private void updateGarden() {
+        if(nameTextField.getText().length()<1){
+            nameTextField.getStyleClass().add("error");
+            System.out.println("added");
+        }
+        if(descTextField.getText().length()<1){
+
+        }
         garden.setName(this.nameTextField.getText());
         garden.setDescription(this.descTextField.getText());
         garden.setCreatingDate(this.creatingDatePicker.getValue());
 
     }
+
+    public boolean fieldsFilled(){
+        if(nameTextField.getText().length()<1){
+            if(descTextField.getText().length()<1){
+                descTextField.getStyleClass().add("error");
+            }
+
+            nameTextField.getStyleClass().add("error");
+
+        }
+        else if(descTextField.getText().length()<1){
+            descTextField.getStyleClass().add("error");
+        }
+        else return true;
+        return false;
     }
+
+    public void nameWritten(KeyEvent event) {
+        nameTextField.getStyleClass().remove("error");
+    }
+
+    public void descWritten(KeyEvent event) {
+        descTextField.getStyleClass().remove("error");
+    }
+}

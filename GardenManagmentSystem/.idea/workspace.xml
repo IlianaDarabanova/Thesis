@@ -6,7 +6,22 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12127511-5666-41f7-ada5-1ddd52aa4e41" name="Default" comment="" />
+    <list default="true" id="12127511-5666-41f7-ada5-1ddd52aa4e41" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GardenManagmentSystem/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GardenManagmentSystem/models/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GardenManagmentSystem/models/Problem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GardenManagmentSystem/views/CreateGardenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GardenManagmentSystem/views/CreateGardenView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GardenManagmentSystem/views/CreateGardenViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GardenManagmentSystem/views/CreateGardenViewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Garden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Garden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/CreateGardenView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CreateGardenView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/CreateGardenViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CreateGardenViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ListGardensController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ListGardensController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/MainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/MainWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/gardens.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/gardens.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,101 +30,118 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/GardenManagmentSystem$Main.ic" NAME="Main Coverage Results" MODIFIED="1530348468880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>views.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="gardens.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/gardens.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="295">
+              <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConfigureTreatmentsProblems.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/ConfigureTreatmentsProblems.fxml">
+      <file leaf-file-name="CreateGardenViewController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/CreateGardenViewController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-793">
+              <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+              <folding>
+                <element signature="e#3763#3764#0" expanded="true" />
+                <element signature="e#3824#3825#0" expanded="true" />
+                <element signature="e#3871#3872#0" expanded="true" />
+                <element signature="e#3932#3933#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SprayEventsListController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/SprayEventsListController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="111" column="48" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/HomePageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#back#0;class#HomePageController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainWindowController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/MainWindowController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainWindow.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/MainWindow.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="134">
+              <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SprayEventsList.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/SprayEventsList.fxml">
+      <file leaf-file-name="ListGardensController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/ListGardensController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="81" column="39" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
+              <folding>
+                <element signature="method#gardenSelected#0;class#ListGardensController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateGardenView.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/CreateGardenView.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="51" column="69" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Garden.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/Garden.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="35" column="137" selection-start-line="35" selection-start-column="137" selection-end-line="35" selection-end-column="137" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListTreatments.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/ListTreatments.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="32" column="134" selection-start-line="32" selection-start-column="134" selection-end-line="32" selection-end-column="134" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateTreatment.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/CreateTreatment.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBConnectionable.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/models/DBConnectionable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListProblems.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/ListProblems.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="32" column="133" selection-start-line="32" selection-start-column="133" selection-end-line="32" selection-end-column="133" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListPlants.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/ListPlants.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-286">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListGardens.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/ListGardens.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/Problem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,6 +166,9 @@
       <find>loadgarde</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -141,7 +176,6 @@
         <option value="$PROJECT_DIR$/src/views/ControllerClass.java" />
         <option value="$PROJECT_DIR$/src/views/GardenControllerClass.java" />
         <option value="$PROJECT_DIR$/src/views/StringControllerClass.java" />
-        <option value="$PROJECT_DIR$/src/views/CreateGardenViewController.java" />
         <option value="$PROJECT_DIR$/src/views/CreatePlantViewController.java" />
         <option value="$PROJECT_DIR$/src/views/style.css" />
         <option value="$PROJECT_DIR$/src/views/da.css" />
@@ -156,28 +190,20 @@
         <option value="$PROJECT_DIR$/src/views/CongigureTreatmentsProblems.fxml" />
         <option value="$PROJECT_DIR$/src/views/EventControllerClass.java" />
         <option value="$PROJECT_DIR$/src/views/SceneChanger.java" />
-        <option value="$PROJECT_DIR$/src/views/MainWindowController.java" />
         <option value="$PROJECT_DIR$/src/views/ConfigureTreatmentsProblemsController.java" />
         <option value="$PROJECT_DIR$/src/views/CreateSprayEventController.java" />
         <option value="$PROJECT_DIR$/src/views/SprayEventsListController.java" />
         <option value="$PROJECT_DIR$/src/views/ListTreatmentsController.java" />
         <option value="$PROJECT_DIR$/src/views/ListProblemsController.java" />
-        <option value="$PROJECT_DIR$/src/views/ListGardensController.java" />
-        <option value="$PROJECT_DIR$/src/views/HomePageController.java" />
         <option value="$PROJECT_DIR$/src/views/ListPlantsController.java" />
         <option value="$PROJECT_DIR$/src/views/Main.java" />
-        <option value="$PROJECT_DIR$/src/views/MainWindow.fxml" />
         <option value="$PROJECT_DIR$/src/views/ListPlants.fxml" />
         <option value="$PROJECT_DIR$/src/views/HomePage.fxml" />
-        <option value="$PROJECT_DIR$/src/views/gardens.css" />
         <option value="$PROJECT_DIR$/src/views/ConfigureTreatmentsProblems.fxml" />
-        <option value="$PROJECT_DIR$/src/views/CreateGardenView.fxml" />
         <option value="$PROJECT_DIR$/src/views/CreatePlantView.fxml" />
         <option value="$PROJECT_DIR$/src/views/CreateProblem.fxml" />
         <option value="$PROJECT_DIR$/src/views/CreateSprayEvent.fxml" />
         <option value="$PROJECT_DIR$/src/models/DBConnectionable.java" />
-        <option value="$PROJECT_DIR$/src/models/Garden.java" />
-        <option value="$PROJECT_DIR$/src/models/Problem.java" />
         <option value="$PROJECT_DIR$/src/models/SprayEvent.java" />
         <option value="$PROJECT_DIR$/src/models/Treatment.java" />
         <option value="$PROJECT_DIR$/src/models/Plant.java" />
@@ -186,6 +212,15 @@
         <option value="$PROJECT_DIR$/src/views/ListProblems.fxml" />
         <option value="$PROJECT_DIR$/src/views/ListGardens.fxml" />
         <option value="$PROJECT_DIR$/src/views/CreateTreatment.fxml" />
+        <option value="$PROJECT_DIR$/src/models/Problem.java" />
+        <option value="$PROJECT_DIR$/src/models/Garden.java" />
+        <option value="$PROJECT_DIR$/src/views/CreateGardenView.fxml" />
+        <option value="$PROJECT_DIR$/src/views/ListGardensController.java" />
+        <option value="$PROJECT_DIR$/src/views/CreateGardenViewController.java" />
+        <option value="$PROJECT_DIR$/src/views/MainWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/views/gardens.css" />
+        <option value="$PROJECT_DIR$/src/views/HomePageController.java" />
+        <option value="$PROJECT_DIR$/src/views/MainWindowController.java" />
       </list>
     </option>
   </component>
@@ -203,6 +238,7 @@
     <option name="width" value="1047" />
     <option name="height" value="788" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
@@ -212,29 +248,28 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="GardenManagmentSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Дипломна работа" type="462c0819:PsiDirectoryNode" />
+              <item name="GardenManagmentSystem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GardenManagmentSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Дипломна работа" type="462c0819:PsiDirectoryNode" />
+              <item name="GardenManagmentSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GardenManagmentSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Дипломна работа" type="462c0819:PsiDirectoryNode" />
+              <item name="GardenManagmentSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GardenManagmentSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Дипломна работа" type="462c0819:PsiDirectoryNode" />
+              <item name="GardenManagmentSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -246,13 +281,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Дипломна работа/src/GardenManagmentSystem/GardenManagmentSystem.java" />
+    <property name="SearchEverywhereHistoryKey" value="getProblemType&#9;PSI&#9;JAVA://models.Problem#getProblemType" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Документация към дипломна работа" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -377,36 +413,36 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32913387" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49926794" weight="0.32913387" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5014641" side_tool="true" weight="0.097637795" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3103953" side_tool="true" visible="true" weight="0.35748032" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.06929134" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6896047" weight="0.35748032" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.329429" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" x="0" y="23" width="1366" height="705" id="Project" order="0" visible="true" weight="0.21669106" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.051968504" />
+      <window_info content_ui="combo" x="0" y="23" width="1366" height="705" id="Project" order="0" visible="true" weight="0.16910689" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49926794" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.051968504" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +486,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/views/HomePageController.java</url>
-          <line>104</line>
+          <line>93</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
@@ -464,27 +500,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="29" />
+      <option name="time" value="37" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/models/ProblemType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/CreateProblemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/ControllerClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -503,20 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="240" column="54" lean-forward="true" selection-start-line="205" selection-start-column="12" selection-end-line="240" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/ConfigureTreatmentsProblemsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="180" lean-forward="true" selection-start-line="134" selection-start-column="8" selection-end-line="180" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/CreateGardenViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="78" lean-forward="true" selection-start-line="72" selection-start-column="4" selection-end-line="83" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -541,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/SprayEventsListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="193" selection-start-line="193" selection-end-line="193" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/ListTreatmentsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -562,28 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/ListGardensController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/HomePageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#initialize#0;class#HomePageController#0" />
-            <element signature="method#listGarden#0;class#HomePageController#0" />
-            <element signature="method#listPlants#0;class#HomePageController#0" />
-            <element signature="method#loadTableViewDate#0;class#HomePageController#0" />
-            <element signature="method#back#0;class#HomePageController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/ListPlantsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -591,42 +567,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/MainWindowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/PInkBackground.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/views/MainWindow.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="162" column="1" selection-start-line="162" selection-start-column="1" selection-end-line="162" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/HomePage.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/CreateGardenView.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -654,107 +600,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GardenManagmentSystem/GardenManagmentSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="" y="">com</node>
-            <node x="" y="">models</node>
-            <node x="" y="">images</node>
-            <node x="" y="">netscape</node>
-            <node x="" y="">oracle</node>
-            <node x="" y="">org</node>
-            <node x="" y="">toolbarButtonGraphics</node>
-            <node x="" y="">sun</node>
-            <node x="" y="">META-INF</node>
-            <node x="" y="">jdk</node>
-            <node x="" y="">groovyjarjarasm</node>
-            <node x="" y="">java</node>
-            <node x="" y="">groovy</node>
-            <node x="" y="">javax</node>
-            <node x="" y="">groovyjarjarcommonscli</node>
-            <node x="" y="">javafx</node>
-            <node x="" y="">groovyjarjarantlr</node>
-            <node x="" y="">views</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="234.0" y="240.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/models">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>models</OriginalElement>
-          <nodes>
-            <node x="221.0" y="80.0">models.Garden</node>
-            <node x="458.6357142857143" y="0.0">models.ProblemType</node>
-            <node x="0.0" y="80.0">models.SprayEvent</node>
-            <node x="126.0" y="80.0">models.Plant</node>
-            <node x="450.0" y="80.0">models.Problem</node>
-            <node x="327.0" y="80.0">models.Treatment</node>
-            <node x="190.5" y="0.0">models.DBConnectionable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="models.Problem" target="models.DBConnectionable">
-              <point x="-31.0" y="-15.0" />
-              <point x="465.5" y="50.0" />
-              <point x="322.8" y="50.0" />
-              <point x="58.80000000000001" y="15.0" />
-            </edge>
-            <edge source="models.Treatment" target="models.DBConnectionable">
-              <point x="0.0" y="-15.0" />
-              <point x="378.5" y="60.0" />
-              <point x="293.40000000000003" y="60.0" />
-              <point x="29.400000000000034" y="15.0" />
-            </edge>
-            <edge source="models.Problem" target="models.ProblemType">
-              <point x="0.0" y="-15.0" />
-              <point x="496.5" y="60.0" />
-              <point x="488.3857142857143" y="60.0" />
-              <point x="-29.75" y="15.0" />
-            </edge>
-            <edge source="models.Garden" target="models.DBConnectionable">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="models.SprayEvent" target="models.DBConnectionable">
-              <point x="0.0" y="-15.0" />
-              <point x="53.0" y="50.0" />
-              <point x="205.2" y="50.0" />
-              <point x="-58.80000000000001" y="15.0" />
-            </edge>
-            <edge source="models.Plant" target="models.DBConnectionable">
-              <point x="0.0" y="-15.0" />
-              <point x="163.5" y="60.0" />
-              <point x="234.60000000000002" y="60.0" />
-              <point x="-29.399999999999977" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-39.5" y="43.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GardenManagmentSystem/GardenManagmentSystem.java" />
+    <entry file="uml://JAVA/" />
+    <entry file="uml://JAVA/models" />
     <entry file="file://$PROJECT_DIR$/src/models/DBConnectionable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -773,37 +621,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="method#insertIntoDB#0;class#Treatment#0" />
-            <element signature="docComment;method#updateIntoDB#0;class#Treatment#0" />
-            <element signature="method#updateIntoDB#0;class#Treatment#0" />
-            <element signature="method#deleteFromDB#0;class#Treatment#0" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/models.Plant">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>models.Plant</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">models.Plant</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-237.5" y="220.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-            <Category>Constructors</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
+    <entry file="uml://JAVA/models.Plant" />
     <entry file="file://$PROJECT_DIR$/src/models/Plant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-484">
@@ -827,247 +648,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/Garden.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
-          <folding>
-            <element signature="method#Garden#0;class#Garden#0" />
-            <element signature="docComment;method#insertIntoDB#0;class#Garden#0" />
-            <element signature="docComment;method#updateIntoDB#0;class#Garden#0" />
-            <element signature="method#updateIntoDB#0;class#Garden#0" />
-            <element signature="method#deleteFromDB#0;class#Garden#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/models.Garden">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>models.Garden</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">models.Garden</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-237.5" y="124.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/models.Treatment">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>models.Treatment</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">models.Treatment</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-237.5" y="181.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/models.Problem">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>models.Problem</OriginalElement>
-          <nodes>
-            <node x="" y="">models.ProblemType</node>
-            <node x="" y="">models.Problem</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="114.00000000000006" y="165.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Inner Classes</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/models.ProblemType">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>models.ProblemType</OriginalElement>
-          <nodes>
-            <node x="" y="">models</node>
-            <node x="" y="">java.lang.Enum</node>
-            <node x="" y="">java.lang.Comparable</node>
-            <node x="" y="">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="119.5" y="95.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JavaScript-modules-diagram/D:/Дипломна работа/src/views">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/src/views</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/views.ConfigureTreatmentsProblemsController">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>views.ConfigureTreatmentsProblemsController</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-179.0" y="110.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/views">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>views</OriginalElement>
-          <nodes>
-            <node x="" y="">views.CreateTreatmentController</node>
-            <node x="" y="">views.ListProblemsController</node>
-            <node x="" y="">views.ConfigureTreatmentsProblemsController</node>
-            <node x="" y="">views.TreatControllerClass</node>
-            <node x="" y="">views.CreatePlantViewController</node>
-            <node x="" y="">views.CreateGardenViewController</node>
-            <node x="" y="">views.Main</node>
-            <node x="" y="">views.CreateSprayEventController</node>
-            <node x="" y="">views.ProblemControllerClass</node>
-            <node x="" y="">views.ListPlantsController</node>
-            <node x="" y="">views.ListGardensController</node>
-            <node x="" y="">views.EventControllerClass</node>
-            <node x="" y="">views.SceneChanger</node>
-            <node x="" y="">views.GardenControllerClass</node>
-            <node x="" y="">views.StringControllerClass</node>
-            <node x="" y="">views.ListTreatmentsController</node>
-            <node x="" y="">views.HomePageController</node>
-            <node x="" y="">views.SprayEventsListController</node>
-            <node x="" y="">views.ControllerClass</node>
-            <node x="" y="">views.CreateProblemController</node>
-            <node x="" y="">views.MainWindowController</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="290.5" y="165.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/models.DBConnectionable">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>models.DBConnectionable</OriginalElement>
-          <nodes>
-            <node x="" y="">models.ProblemType</node>
-            <node x="" y="">models.Problem</node>
-            <node x="" y="">models.DBConnectionable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="73.5" y="165.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/Problem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/gardens.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/ConfigureTreatmentsProblems.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/SprayEventsList.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="35" column="137" selection-start-line="35" selection-start-column="137" selection-end-line="35" selection-end-column="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/ListTreatments.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="32" column="134" selection-start-line="32" selection-start-column="134" selection-end-line="32" selection-end-column="134" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="uml://JAVA/models.Garden" />
+    <entry file="uml://JAVA/models.Treatment" />
+    <entry file="uml://JAVA/models.Problem" />
+    <entry file="uml://JAVA/models.ProblemType" />
+    <entry file="uml://JavaScript-modules-diagram/D:/Дипломна работа/src/views" />
+    <entry file="uml://JAVA/views.ConfigureTreatmentsProblemsController" />
+    <entry file="uml://JAVA/views" />
+    <entry file="uml://JAVA/models.DBConnectionable" />
     <entry file="file://$PROJECT_DIR$/src/views/ListProblems.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="544">
           <caret line="32" column="133" selection-start-line="32" selection-start-column="133" selection-end-line="32" selection-end-column="133" />
         </state>
       </provider>
@@ -1075,24 +667,168 @@
     <entry file="file://$PROJECT_DIR$/src/views/ListPlants.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="221">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/ListGardens.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="663">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/CreateTreatment.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="425">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/SprayEventsList.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="137" selection-start-line="35" selection-start-column="137" selection-end-line="35" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/ConfigureTreatmentsProblems.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/ConfigureTreatmentsProblemsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="169" column="15" selection-start-line="169" selection-start-column="15" selection-end-line="169" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/ListTreatments.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="32" column="134" selection-start-line="32" selection-start-column="134" selection-end-line="32" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/CreateProblemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Problem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Garden.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/CreateGardenView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="51" column="69" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/ListGardensController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="81" column="39" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
+          <folding>
+            <element signature="method#gardenSelected#0;class#ListGardensController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="909">
+          <caret line="2571" column="57" selection-start-line="2571" selection-start-column="57" selection-end-line="2571" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/gardens.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/HomePageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#back#0;class#HomePageController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/CreateGardenViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-793">
+          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+          <folding>
+            <element signature="e#3763#3764#0" expanded="true" />
+            <element signature="e#3824#3825#0" expanded="true" />
+            <element signature="e#3871#3872#0" expanded="true" />
+            <element signature="e#3932#3933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/SprayEventsListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="111" column="48" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/MainWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/MainWindow.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
         </state>
       </provider>
     </entry>

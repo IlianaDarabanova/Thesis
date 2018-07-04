@@ -78,6 +78,8 @@ public class ListGardensController implements Initializable {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        deleteGardenBtn.setDisable(true);
+        changeGardenBtn.setDisable(true);
     }
 
     public void changeGarden(ActionEvent event) {

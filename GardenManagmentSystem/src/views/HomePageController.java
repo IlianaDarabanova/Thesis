@@ -25,7 +25,7 @@ import java.time.LocalDate;
 import java.util.ResourceBundle;
 
 public class HomePageController implements Initializable {
-    @FXML private TableView<Plant> tableView;
+    @FXML TableView<Plant> tableView;
     @FXML private TableColumn<Plant,String> plantColumn;
     @FXML private TableColumn<Plant,String> gardenColumn;
     @FXML private TableColumn<Plant,LocalDate> waterAtColumn;
@@ -34,6 +34,7 @@ public class HomePageController implements Initializable {
     @FXML private File imageFile;
     @FXML private ImageView imageView;
     private Plant plant;
+
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -51,6 +52,9 @@ public class HomePageController implements Initializable {
         }
     }
 
+
+
+
     public void plantSelected(MouseEvent mouseEvent) {
         Plant myPlant = tableView.getSelectionModel().getSelectedItem();
         if(myPlant==null){
@@ -58,6 +62,8 @@ public class HomePageController implements Initializable {
         }
         waterBtn.setDisable(false);
     }
+
+
 
     public void waterPlant(ActionEvent event) {
         Plant myPlant = tableView.getSelectionModel().getSelectedItem();
@@ -78,23 +84,6 @@ public class HomePageController implements Initializable {
         }
     }
 
-    public void listGarden(ActionEvent event) {
-        SceneChanger sc = new SceneChanger();
-        try {
-            sc.changeScenes(event,"ListGardens.fxml","Градини");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public void listPlants(ActionEvent event) {
-        SceneChanger sc = new SceneChanger();
-        try {
-            sc.changeScenes(event,"ListPlants.fxml","Растения");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
     private void loadTableViewDate() throws SQLException {
         ObservableList<Plant> plants = FXCollections.observableArrayList();

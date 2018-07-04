@@ -45,11 +45,11 @@
                <font>
                   <Font size="18.0" />
                </font></Label>
-            <TextField fx:id="nameTextField" prefHeight="39.0" prefWidth="272.0" GridPane.columnIndex="1">
+            <TextField fx:id="nameTextField" onKeyTyped="#nameWritten" prefHeight="39.0" prefWidth="272.0" GridPane.columnIndex="1">
                <font>
                   <Font size="14.0" />
                </font></TextField>
-            <TextField fx:id="descTextField" layoutX="268.0" layoutY="24.0" prefHeight="39.0" prefWidth="272.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <TextField fx:id="descTextField" onKeyTyped="#descWritten" layoutX="268.0" layoutY="24.0" prefHeight="39.0" prefWidth="272.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <font>
                   <Font size="14.0" />
                </font>
@@ -67,6 +67,11 @@
             <Font size="17.0" />
          </font>
       </Button>
+      <Label fx:id="errorMsg" layoutX="45.0" layoutY="372.0" text="Label" textFill="RED">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
    </children>
    <styleClass>
       <String fx:value="mainFxmlClass" />

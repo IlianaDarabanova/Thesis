@@ -46,7 +46,22 @@ public class Problem implements DBConnectionable{
     }
 
     public String getProblemType() {
-            return problemType.name().toLowerCase();
+            String name = problemType.name().toLowerCase();
+            String pType = "";
+            switch (name) {
+                case "bug":
+                   pType = "Насекомо";
+                   break;
+                case "disease":
+                   pType = "Болест";
+                    break;
+                case "animal":
+                    pType = "Животно";
+                    break;
+                default:
+                    throw new IllegalArgumentException("There is no such ProblemType!");
+            }
+            return pType;
 
     }
 

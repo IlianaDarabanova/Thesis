@@ -57,8 +57,7 @@ public class Garden implements DBConnectionable{
         Connection conn = null;
         PreparedStatement preparedStatement = null;
 
-        try
-        {
+
             //1. Connect to the database
             conn = DriverManager.getConnection(DATABASE_URL, USER, PASSWORD);
 
@@ -78,19 +77,13 @@ public class Garden implements DBConnectionable{
             preparedStatement.setDate(3, cd);
 
             preparedStatement.executeUpdate();
-        }
-        catch (Exception e)
-        {
-            System.err.println(e.getMessage());
-        }
-        finally
-        {
+
             if (preparedStatement != null)
                 preparedStatement.close();
 
             if (conn != null)
                 conn.close();
-        }
+
     }
 
 
